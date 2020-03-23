@@ -3,6 +3,7 @@ package com.example.blocodenotas.persistence
 import androidx.room.*
 
 // aqui onde vai esta os metodos do banco de dados
+@Dao
 interface NoteDao {
     @Insert (onConflict = OnConflictStrategy.REPLACE)
     fun insert(note:Note){
