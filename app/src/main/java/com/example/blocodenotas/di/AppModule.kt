@@ -9,7 +9,8 @@ import com.example.blocodenotas.repository.Repository
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
-// @Providesanotação. Métodos anotados retornam instâncias de classes que não podem suportar a @Injectanotação.
+
+// @Provides anotação. Métodos anotados retornam instâncias de classes que não podem suportar a @Injectanotação.
 @Module
 class AppModule
 @Singleton
